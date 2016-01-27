@@ -18,7 +18,7 @@
         <activity
             android:name=".PomodoroActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTask" >
+            android:launchMode="singleTop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,7 +36,7 @@
             android:name=".PomodoroAlert"
             android:excludeFromRecents="true"
             android:label="@string/alert_title"
-            android:launchMode="singleTask"
+            android:launchMode="singleTop"
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".PomodoroPreferences" />
     </application>
